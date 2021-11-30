@@ -6,6 +6,8 @@ GENERALE:
 5. autoremove: sudo apt autoremove
 6. verificare update: sudo apt update
 7. instalare update: sudo apt upgrade
+8. verificare ram: free -m
+9. verificare spatiu total ssd: gnome-system-monitor
 
 
 UPDATE:
