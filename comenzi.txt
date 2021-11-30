@@ -54,7 +54,15 @@ TOOL-URI:
     6. install davinci from GUI
  15. NOTEPAD++: https://vitux.com/how-to-install-notepad-on-ubuntu/
  16. ATOM: sudo snap install atom --classic (https://linuxize.com/post/how-to-install-atom-text-editor-on-ubuntu-20-04/)
-    
+ 17.OBS: (https://obsproject.com/wiki/install-instructions#ubuntumint-installation)
+    1. sudo apt install ffmpeg
+    2. sudo apt install v4l2loopback-dkms
+    3. sudo add-apt-repository ppa:obsproject/obs-studio
+    4. sudo apt update
+    5. sudo apt install obs-studio
+18. TEAMS(https://websiteforstudents.com/how-to-install-microsoft-teams-on-ubuntu-20-04-18-04/)
+    1. Download linux DEB from https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection
+    2. click dreapta pe fisierul descarcat si selectare OPEN WITH SOFTWARE INSTALL
     
 PORTURI: (/dev/ttyACM0)
 1. verificare port: ls /dev/ttyACM0
