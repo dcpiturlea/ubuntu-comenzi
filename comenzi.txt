@@ -8,6 +8,7 @@ GENERALE:
 7. instalare update: sudo apt upgrade
 8. verificare ram: free -m
 9. verificare spatiu total ssd: gnome-system-monitor
+10. GOTO folderul anterior: cd ../
 
 
 UPDATE:
@@ -19,7 +20,7 @@ DRIVERE:
 
 TOOL-URI:
 1. GIT instalare: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-2. GIT comenzi:https://www.toolsqa.com/git/local-repository-remote-repository/
+2. GIT comenzi:https://www.toolsqa.com/git/local-repository-remote-repository/. DELETE REPO: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-repository-repo-command-windows-linux-rm
 3. JAVA: https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04
 4. INTELLIJ: sudo snap install intellij-idea-community --classic ( https://linuxconfig.org/how-to-install-intellij-idea-on-ubuntu-20-04-linux-desktop)
 4. PYTHON: sudo apt-get install python3.6 (https://docs.python-guide.org/starting/install3/linux/)
