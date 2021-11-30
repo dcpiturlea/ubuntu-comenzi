@@ -1,0 +1,28 @@
+GENERALE:
+1. lista dosare in locatia curenta: DIR
+2. goto dosar: CD /PATH/TO/FOLDER
+3. creare dosar: MKDIR nume_dosar
+4. delete fisier: rm -f .dosar/nume_fisier.extensie (sau: de -f .dosar/nume_fisier.extensie)
+5.
+
+
+UPDATE:
+1. verificare: sudo apt update
+2. update: sudo apt upgrade
+
+DRIVERE:
+1. NVIDIA: https://phoenixnap.com/kb/install-nvidia-drivers-ubuntu
+
+TOOL-URI:
+1. GIT instalare: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2. GIT comenzi:https://www.toolsqa.com/git/local-repository-remote-repository/
+3. 
+
+PORTURI: (/dev/ttyACM0)
+1. verificare port: ls /dev/ttyACM0
+2. acces read/write pentru port specific: sudo chmod a+rw /dev/ttyACM0
+
+FISIERE TEXT:
+1. create/citire: nano fisier_nume.txt (https://www.wikihow.com/Create-and-Edit-Text-File-in-Linux-by-Using-Terminal)
+2. salvare: CTRL + O
+3. exit: CTR + X
