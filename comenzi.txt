@@ -3,7 +3,9 @@ GENERALE:
 2. goto dosar: CD /PATH/TO/FOLDER
 3. creare dosar: MKDIR nume_dosar
 4. delete fisier: rm -f .dosar/nume_fisier.extensie (sau: de -f .dosar/nume_fisier.extensie)
-5.
+5. autoremove: sudo apt autoremove
+6. verificare update: sudo apt update
+7. instalare update: sudo apt upgrade
 
 
 UPDATE:
@@ -23,7 +25,34 @@ TOOL-URI:
 6. XAMPP: https://vitux.com/ubuntu-xampp/
 7. MYSQL WORK: https://linuxhint.com/installing_mysql_workbench_ubuntu/
 8. ARDUINO: download and install from terminal: https://www.arduino.cc/en/software#experimental-software
-
+9. G++: sudo apt install g++ (https://linuxconfig.org/how-to-install-g-the-c-compiler-on-ubuntu-18-04-bionic-beaver-linux)
+10. CODE BLOKS: sudo apt install codeblocks (https://linoxide.com/how-to-install-codeblocks-on-ubuntu-20-04/)
+11. PUTTY: sudo apt-get install -y putty (https://numato.com/blog/how-to-install-putty-on-linux/)
+12. sudo apt-get install filezilla (https://stackoverflow.com/questions/299412/is-there-a-winscp-equivalent-for-linux)
+13. Docker: (https://docs.docker.com/engine/install/ubuntu/)
+    1. Sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+    2. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    3. echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    4. sudo apt-get update
+    5. sudo apt-get install docker-ce docker-ce-cli containerd.iosudo docker version
+    6. verificare versiune: sudo docker version
+ 14. DAVINCI: (https://www.linuxuprising.com/2018/06/how-to-install-davinci-resolve-15-in.html)
+    1. sudo apt install libssl1.1 ocl-icd-opencl-dev fakeroot xorriso
+    2. dwonload davinci: https://www.blackmagicdesign.com/products/davinciresolve/
+    3. download .gz: https://www.danieltufvesson.com/makeresolvedeb
+    4. extract davinci and from .gz file the installer(in the same folder): makeresolvedeb_1.5.1_multi.sh
+    5. run in terminal from current folder: ./DaVinci_Resolve_Studio_17.4.2_Linux.run
+    6. install davinci from GUI
+ 15. NOTEPAD++: https://vitux.com/how-to-install-notepad-on-ubuntu/
+ 16. ATOM: sudo snap install atom --classic (https://linuxize.com/post/how-to-install-atom-text-editor-on-ubuntu-20-04/)
+    
+    
 PORTURI: (/dev/ttyACM0)
 1. verificare port: ls /dev/ttyACM0
 2. acces read/write pentru port specific: sudo chmod a+rw /dev/ttyACM0
